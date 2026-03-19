@@ -1,0 +1,29 @@
+version: "3.9"
+
+services:
+  api:
+    build: .
+    image: alzheimer-api:latest
+    container_name: alzheimer_api
+    ports:
+      - "8000:8000"
+    environment:
+      # ── Override with strong secrets in production ──
+      API_USERNAME: admin
+      API_PASSWORD: secret
+      DATABASE_URL: sqlite:////app/data/alzheimer_api.db
+      ARTIFACTS_DIR: /app/artifacts
+    volumes:
+      # Persist SQLite database across restarts
+      - db_data:/app/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python3", "-c",
+             "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+volumes:
+  db_data:
