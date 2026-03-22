@@ -1,0 +1,15 @@
+Use Case,Category,Impact (High/Med/Low),Speed to Value (High/Med/Low),Year 1 Priority,Investment (€M),Expected Return
+AI-Augmented Lead Optimization,Cost Reduction,High,High,YES,15-25,€80-120M per drug program
+Clinical Trial Patient Matching,Cost Reduction,High,High,YES,5-10,20-25% recruitment savings
+Manufacturing Predictive QC,Cost Reduction,High,High,YES,10-20,€50-100M / year
+Supply Chain AI Forecasting,Cost Reduction,Med,High,No,3-6,15-20% inventory savings
+Regulatory Doc Drafting AI,Cost Reduction,Med,High,No,2-5,20-30% submission time savings
+Pharmacovigilance NLP,Cost Reduction,Med,High,No,3-8,40% faster signal detection
+Precision Medicine / Biomarkers,Revenue Growth,High,Med,No,20-40,€500M+ NPV
+Pipeline Acceleration Platform,Revenue Growth,High,Med,No,30-50,2-3 years to market sooner
+AI-Designed Novel Modalities,Revenue Growth,High,Low,No,40-80,Opens undruggable targets
+Commercial Excellence AI,Revenue Growth,Med,High,No,5-15,5-15% revenue uplift
+De Novo Drug Design (Gen AI),Revenue Growth,High,Low,No,50-100,New first-in-class pipeline
+Contract AI Biomanufacturing,Revenue Growth,Low,Low,No,20-40,New revenue stream (3-5yr)
+Generic Chatbots / HR AI,Other,Low,High,No,1-3,Marginal productivity gains
+Non-Core Automation,Other,Low,High,No,1-2,Marginal cost reduction
