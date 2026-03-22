@@ -1,0 +1,6 @@
+year,total_revenue_eur_m,total_expenditure_eur_m,net_result_eur_m,personnel_costs_eur_m,personnel_cost_yoy_pct,inpatient_cases,outpatient_cases,total_staff_headcount,notes
+2020,2330,2348,-18,1320,,130000,780000,21500,"COVID-19 impact year; reduced elective procedures"
+2021,2480,2480,0,1380,4.5,138000,810000,22100,"Recovery year; near break-even"
+2022,2620,2675,-55,1420,2.9,140000,830000,22800,"Rising energy and supply costs post-Ukraine war"
+2023,2780,2915,-134.6,1493,5.1,143000,850000,23600,"Record deficit; wage agreements and inflation"
+2024,2900,2987,-87.4,1600,7.2,148000,966000,24300,"Improvement via cost measures and higher throughput"
